@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffc5de;
+}
+
+input, textarea {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+h1 {
+    background-color: #446a46;
+    padding: 100px 0;
+    border: 30px;
+    text-align: center;
+    font-family: "Old Standard TT", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 120px;
+    }
+
+header li {
+    margin-left: 60px;
+    display: inline;
+}
+
+header li a{
+text-decoration: none;
+color: black;
+}
+
+nav {
+    text-align: center;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    padding: 20px 0;
+    background-color: #82a384;
+}
+
+h2 {
+    text-align: left;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    padding: 35px;
+    padding-left: 50px;
+}
+
+h3,
+form button {
+    text-align: center;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#description {
+    font-size: 30px;
+    padding: 100px 50px;    
+}
+
+#brand-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#brand-list img {
+    width: 180px;
+}
+
+#foto-perfil {
+    width: 50%;
+    height: auto;
+    margin-right: 32px;
+}    
+
+#contact {
+    background-color: #e5afc6;
+}
+
+.social-links img {
+    width: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+    padding-left: 15px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 50px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #446a46;
+    color: #f7f7f7;
+    border: none;
+    cursor: pointer;
+
+}
+
+form button:hover {
+    background-color: #253126;
+}
+
+input:focus textarea:focus {
+    outline-color: #253126;
+}
+
+section .contact-methods p {
+    padding-right: 50px;
+}
+
+footer{
+    background-color: #446a46;
+    color: #f7f7f7;
+    padding: 18px;
+    padding-left: 50px;
+}

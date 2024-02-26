@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Ebac/CSS_ebac"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Website"
+	}
+}
